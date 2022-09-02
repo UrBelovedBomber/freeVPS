@@ -17,7 +17,7 @@ Don't use this vps for :
 * Go to action tab and select ubuntu in workflow.
 * Fill the auth. code from  `https://remotedesktop.google.com/headless`
 * Next fill the second gap.
-* Wate untill for about 10 minutes.
+* Wate for about 10 minutes.
 
 # License
 
