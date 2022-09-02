@@ -6,14 +6,14 @@ on:
         description: 'Visit http://remotedesktop.google.com/headless and copy the command after Authentication'
         required: true
       pin:
-        description: '6 digits PIN'
+        description: 'Enter a Pin (more or equal to 6 digits)'
         required: true
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Create User
-      run: sudo useradd -m CRDUser1 && sudo adduser CRDUser1 sudo && echo 'CRDUser1:CRDUser1' | sudo chpasswd
+      run: sudo useradd -m diwas && sudo adduser diwas sudo && echo 'diwas:diwas' | sudo chpasswd
     - name: Doanload & Install files
       run: | 
         echo Update: APT
