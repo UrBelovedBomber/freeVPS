@@ -14,7 +14,7 @@ Don't use this vps for :
 
 # How to use ?
 * Click `Fork` to create a new repository.
-* Go to action tab and select ubuntu in workflow.
+* Go to action tab and select ubuntu in `select workflow` option.
 * Fill the auth. code from  `https://remotedesktop.google.com/headless`
 * Next fill the second gap.
 * Wate for about 10 minutes.
