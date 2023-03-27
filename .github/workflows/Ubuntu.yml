@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       code:
-        description: 'Visit http://remotedesktop.google.com/headless and copy the command after Authentication'
+        description: 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AVHEtk4ICsLFIHpI2TGE7EfGuGwOZpp3n7J9lVhabgOA68bmKVrP3L0QyJvOJZg4CXBo2Q" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
         required: true
       pin:
-        description: 'Enter a Pin (more or equal to 6 digits)'
+        description: '100500'
         required: true
 jobs:
   build:
